@@ -1,6 +1,6 @@
 databases:
   - name: postgres
-    databaseName: MyDatabase
+    databaseName: Mydatabase
     user: moringa
 
 services:
