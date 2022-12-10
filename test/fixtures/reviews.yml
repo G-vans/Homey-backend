@@ -3,7 +3,11 @@
 one:
   rating: 1
   comment: MyString
+  user_id: 1
+  property_id: 1
 
 two:
   rating: 1
   comment: MyString
+  user_id: 1
+  property_id: 1

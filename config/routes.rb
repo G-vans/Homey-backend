@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   root "properties#index"
   resources :properties, only: [:index, :show, :create, :update, :destroy]
   resources :reviews, only: [:index, :show, :create, :destroy]
+
+  get "*path", to: "fallback#index", constraints: ->(req) { !req.xhr? && req.format.html? }
   
   # get users 
   get '/users', to: 'users#index'
