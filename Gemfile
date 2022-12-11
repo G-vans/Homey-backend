@@ -9,6 +9,8 @@ gem "rails", "~> 7.0.4"
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
+gem 'rack-cors'
+
 # password protection
 gem 'bcrypt', '~> 3.1.7'
 
