@@ -13,7 +13,7 @@ class PropertiesController < ApplicationController
    
     def show
         property = Property.find(params[:id])
-        render json: property, status: :ok, serializer: PropertyReviewSerializer, include: ['reviews', 'reviews.user', 'category']
+        render json: property, status: :ok
     end
 
    

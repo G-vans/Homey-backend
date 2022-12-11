@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
-  root "properties#index"
+  root "users#index"
   resources :properties, only: [:index, :show, :create, :update, :destroy]
   resources :reviews, only: [:index, :show, :create, :destroy]
 
