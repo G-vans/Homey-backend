@@ -1,24 +1,9 @@
-# README
+# HOMEY-API DOCUMENTATION
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Deployment to Railway and Render failed. Currently working on fixing the bug.
 
-Things you may want to cover:
+## Roadmap
 
-* Ruby version
+Use the [open issues](https://github.com/G-vans/Homey-backend/issues) for a full list of proposed features (and known issues).
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can as well click on it to help solve the bug on deployment.
